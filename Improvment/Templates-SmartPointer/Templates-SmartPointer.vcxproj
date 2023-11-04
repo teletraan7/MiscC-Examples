@@ -155,9 +155,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Templates_SmartPointer.cpp" />
+    <ClCompile Include="UniquePtrMoveConstructor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Swapper.h" />
+    <ClInclude Include="UniquePtrMoveConstructor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

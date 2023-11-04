@@ -2,6 +2,7 @@
 #include <string>
 #include <memory>
 #include "Swapper.h"
+#include "UniquePtrMoveConstructor.h"
 typedef std::string String;
 
 //This class will take an two types T and compare them to each other, returning the largest. This only works if the type T is a type supporting the comparison > operator.
@@ -72,5 +73,9 @@ int main()
     std::cout << intSwapper.getFirst() << " " << intSwapper.getSecond() << std::endl;
     std::cout << stringSwapper.getFirst() << " " << stringSwapper.getSecond() << std::endl;
     std::cout << std::endl << std::endl;
+
+    UniquePtrMoveConstructor obj {420};
+    UniquePtrMoveConstructor obj2 {std::move(obj)};
+    
     return 0;
 }
