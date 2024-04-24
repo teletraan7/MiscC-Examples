@@ -1,2 +1,0 @@
-C:\Users\nealj\OneDrive\Desktop\Improvment-10-20\Templates-SmartPointer\x64\Debug\Templates-SmartPointer.exe
-D:\Udemy\MiscC-Examples\Improvment\Templates-SmartPointer\x64\Debug\Templates-SmartPointer.exe
