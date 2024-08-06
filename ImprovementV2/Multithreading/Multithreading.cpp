@@ -50,4 +50,12 @@ int main()
     t5.join();
     printf("Press Enter to End \n");
     std::cin.get();
+
+    //deadlock
+
+    //race condition
+
+    //events
+
+    //callback
 }
